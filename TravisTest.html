@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<label id="textBox">1</label>
+	<button onclick="func()">CLICK HERE</button>
+	<script>
+		var count = 1;
+		function func() {
+			console.log("Clicked");
+			count++;
+			document.getElementById("textBox").innerHTML = count;
+		}
+	</script>
+</body>
+</html>
